@@ -114,6 +114,7 @@
             </div>
           {/if}
         {/block}
+        {hook h='displayProductAdditionalInfo' product=$product}
 
         {block name='product_reviews'}
           {hook h='displayProductListReviews' product=$product}

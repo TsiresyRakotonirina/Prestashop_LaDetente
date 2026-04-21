@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.5, created on 2026-04-19 12:05:09
+/* Smarty version 4.5.5, created on 2026-04-21 16:40:01
   from 'module:ps_emailsubscriptionviewstemplateshookps_emailsubscription.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.5',
-  'unifunc' => 'content_69e4a8d5591940_90771475',
+  'unifunc' => 'content_69e78c41cdcdb0_49236828',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_69e4a8d5591940_90771475 (Smarty_Internal_Template $_smarty_tpl) {
+function content_69e78c41cdcdb0_49236828 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12" id="blockEmailSubscription_<?php echo htmlspecialchars((string) ($_smarty_tpl->tpl_vars['hookName']->value), ENT_QUOTES, 'UTF-8');?>
 ">
