@@ -23,7 +23,7 @@ class Pr_Cartboost_Freebar extends Module
     {
         return parent::install() 
                         && $this->registerHook('displayProductAdditionalInfo')
-                        && $this->registerHook('displayCartTotals') 
+                        && $this->registerHook('displayShoppingCartFooter') 
                         ;
     }
     public function uninstall()
@@ -95,11 +95,16 @@ class Pr_Cartboost_Freebar extends Module
     }
 
     // progess bar 
-    public function hookDisplayCartTotals()
+    public function hookDisplayShoppingCartFooter()
     {
+
+        // die('HOOK APPELE');
         $cart = $this->context->cart;
         $threshold = (float)Configuration::get('PR_CARTBOOST_FREEBAR_FREE_SHIPPING');
         $total = $cart->getOrderTotal();
+        // $total = 90;
+
+        // $this->controllers->addJS($this->_path.'views/js/pr_cartboost_freebar.js');
 
         $this->context->smarty->assign([
             'threshold' => $threshold,

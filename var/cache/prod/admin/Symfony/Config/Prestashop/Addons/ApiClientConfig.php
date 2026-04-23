@@ -28,7 +28,7 @@ class ApiClientConfig
     }
 
     /**
-     * @default 'C:\\wamp64\\www\\prestashop9/var/cache/prod\\cacert.pem'
+     * @default 'C:\\wamp64\\www\\prestashop9/var/cache/dev\\cacert.pem'
      * @param ParamConfigurator|mixed $value
      * @return $this
      */

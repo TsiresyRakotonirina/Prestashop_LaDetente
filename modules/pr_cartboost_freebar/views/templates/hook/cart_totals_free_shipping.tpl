@@ -4,7 +4,7 @@
 <div class="cart-free-shipping">
   <p>
     {if $total >= $threshold}
-      <strong>Félicitations ! Livraison gratuite atteinte 🎉</strong>
+      <strong>Félicitations ! Livraison gratuite atteinte</strong>
     {else}
       Il vous reste {$threshold - $total|number_format:2:",":" "} € pour bénéficier de la livraison gratuite.
     {/if}
@@ -18,7 +18,7 @@
          aria-valuenow="{$progress}" 
          aria-valuemin="0" 
          aria-valuemax="100">
-      {$progress|round}% 
+      {$progress|round}%
     </div>
   </div>
 </div>
